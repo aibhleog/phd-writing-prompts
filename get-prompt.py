@@ -10,7 +10,8 @@ import numpy as np
 import pandas as pd
 
 # reading in list of prompts
-df = pd.read_csv('list-of-prompts.txt',skiprows=4,sep='\n',names=['prompt'])
+path = '/home/aibhleog/Documents/scratch-code/phd-writing-prompts/' # change to be your own path
+df = pd.read_csv(path+'list-of-prompts.txt',skiprows=4,sep='\n',names=['prompt'])
 
 num = round(np.random.uniform(0,len(df))) # generating random number
 
