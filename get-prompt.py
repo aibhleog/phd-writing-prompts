@@ -13,7 +13,7 @@ import pandas as pd
 path = '/home/aibhleog/Documents/scratch-code/phd-writing-prompts/' # change to be your own path
 df = pd.read_csv(path+'list-of-prompts.txt',skiprows=4,sep='\n',names=['prompt'])
 
-num = round(np.random.uniform(0,len(df))) # generating random number
+num = np.random.randint(0,len(df)) # generating random number
 
 print(f'''
 ---------------
