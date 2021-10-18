@@ -9,3 +9,7 @@ alias writing='/path/to/file/phd-writing-prompts/get-prompt.py'
 Then the output will look like this:  
 
 ![output](output.png)
+
+
+### Stretch Goals / Ways to Improve
+* Make it so that no words are split between two lines (so it all prints nicely).
