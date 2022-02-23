@@ -16,9 +16,9 @@ df = pd.read_csv(path+'list-of-prompts.txt',skiprows=4,sep='\n',names=['prompt']
 num = np.random.randint(0,len(df)) # generating random number
 
 print(f'''
----------------
-WRITING PROMPT:
----------------
-{df.loc[num,"prompt"]}
+  ---------------
+  WRITING PROMPT:
+  ---------------
+  {df.loc[num,"prompt"]}
 ''')
 
